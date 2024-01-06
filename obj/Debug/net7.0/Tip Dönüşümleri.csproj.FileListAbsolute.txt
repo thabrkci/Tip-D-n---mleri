@@ -12,3 +12,17 @@ C:\Users\Taha\OneDrive\Masaüstü\Tip Dönüşümleri\obj\Debug\net7.0\refint\Ti
 C:\Users\Taha\OneDrive\Masaüstü\Tip Dönüşümleri\obj\Debug\net7.0\Tip Dönüşümleri.pdb
 C:\Users\Taha\OneDrive\Masaüstü\Tip Dönüşümleri\obj\Debug\net7.0\Tip Dönüşümleri.genruntimeconfig.cache
 C:\Users\Taha\OneDrive\Masaüstü\Tip Dönüşümleri\obj\Debug\net7.0\ref\Tip Dönüşümleri.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\bin\Debug\net7.0\Tip Dönüşümleri.exe
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\bin\Debug\net7.0\Tip Dönüşümleri.deps.json
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\bin\Debug\net7.0\Tip Dönüşümleri.runtimeconfig.json
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\bin\Debug\net7.0\Tip Dönüşümleri.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\bin\Debug\net7.0\Tip Dönüşümleri.pdb
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\obj\Debug\net7.0\Tip Dönüşümleri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\obj\Debug\net7.0\Tip Dönüşümleri.AssemblyInfoInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\obj\Debug\net7.0\Tip Dönüşümleri.AssemblyInfo.cs
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\obj\Debug\net7.0\Tip Dönüşümleri.csproj.CoreCompileInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\obj\Debug\net7.0\Tip Dönüşümleri.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\obj\Debug\net7.0\refint\Tip Dönüşümleri.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\obj\Debug\net7.0\Tip Dönüşümleri.pdb
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\obj\Debug\net7.0\Tip Dönüşümleri.genruntimeconfig.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Tip Dönüşümleri\obj\Debug\net7.0\ref\Tip Dönüşümleri.dll
