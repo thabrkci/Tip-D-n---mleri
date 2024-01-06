@@ -1,99 +1,99 @@
-﻿using System;
+using System;
 
-namespace Typetransformations
+namespace TypeTransformations
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            // İmplicit Conversion (Bilinçsiz Dönüşüm)
-            Console.WriteLine("_-_İmplicit Conversion_-_");
+            // Implicit Conversion
+            Console.WriteLine("_-_Implicit Conversion_-_");
 
-            // Byte, sbyte, short türündeki değişkenlerin toplamı int'e atanabilir, çünkü daha büyük bir türdür.
+            // Variables of type byte, sbyte, short can be assigned to int because it's a larger type.
             byte a = 5;
             sbyte b = 30;
             short c = 10;
             int d = a + b + c;
             Console.WriteLine("d:" + d);
 
-            // Daha büyük bir tür olan long'a int değeri atanabilir.
+            // A value of int can be assigned to long, which is a larger type.
             long h = d;
             Console.WriteLine("h:" + h);
 
-            // Daha büyük bir tür olan float'a long değeri atanabilir.
+            // A value of long can be assigned to float, which is a larger type.
             float i = h;
             Console.WriteLine("i:" + i);
 
-            // String ve char ifadeleri ile int toplanarak object türüne atanabilir.
+            // Adding int with string and char, resulting in an assignment to the object type.
             string E = "Taha";
             char f = 'B';
             object g = E + f + d;
             Console.WriteLine("g:" + g);
 
-            // Explicit Conversion (Bilinçli Dönüşüm)
+            // Explicit Conversion
             Console.WriteLine("_-_Explicit Conversion_-_");
 
-            // Daha küçük bir tür olan int, byte türüne bilinçli bir şekilde dönüştürülebilir.
+            // A value of int can be explicitly converted to byte.
             int x = 4;
             byte y = (byte)x;
             Console.WriteLine("y:" + y);
 
-            // Daha büyük bir tür olan int, byte türüne dönüştürülecekken veri kaybı olabilir.
+            // A value of int can be explicitly converted to byte with potential data loss.
             int z = 100;
             byte t = (byte)z;
             Console.WriteLine("t:" + t);
 
-            // Ondalık kısmı kaybederek float türünden byte türüne dönüşüm yapılabilir.
+            // Float can be explicitly converted to byte with losing the decimal part.
             float w = 10.3f;
             byte v = (byte)w;
             Console.WriteLine("v:" + v);
 
-            // To string Methodu
-            Console.WriteLine("[To String Methodu]");
+            // ToString Method
+            Console.WriteLine("[ToString Method]");
 
-            // Bir int değeri string'e dönüştürülebilir.
+            // An int value can be converted to a string.
             int xx = 6;
             string yy = xx.ToString();
             Console.WriteLine("yy:" + yy);
 
-            // Bir float değeri string'e dönüştürülebilir.
+            // A float value can be converted to a string.
             string zz = 12.5f.ToString();
             Console.WriteLine("zz:" + zz);
 
             // System Convert
             Console.WriteLine("[System Convert]");
 
-            // Convert sınıfı kullanılarak string ifadeler int türüne dönüştürülebilir.
+            // String values can be converted to int using the Convert class.
             string s1 = "10", s2 = "20";
-            int sayi1, sayi2;
-            int Toplam;
+            int number1, number2;
+            int Total;
 
-            sayi1 = Convert.ToInt32(s1);
-            sayi2 = Convert.ToInt32(s2);
+            number1 = Convert.ToInt32(s1);
+            number2 = Convert.ToInt32(s2);
 
-            // Dönüştürülen değerler toplanabilir.
-            Toplam = sayi1 + sayi2;
-            Console.WriteLine("Toplam:" + Toplam);
+            // The converted values can be summed.
+            Total = number1 + number2;
+            Console.WriteLine("Total:" + Total);
 
-            // Parse Methodu
-            Console.WriteLine("[Parse Methodu]");
+            // Parse Method
+            Console.WriteLine("[Parse Method]");
 
-            // Parse metodu ile string ifadeler sayısal türlere dönüştürülebilir.
+            // Using the Parse method to convert string expressions to numerical types.
             ParseMethod();
 
             static void ParseMethod()
             {
-                string metin1 = "10";
-                string metin2 = "20.35";
-                int rakam1;
+                string text1 = "10";
+                string text2 = "20.35";
+                int digit1;
                 double double32;
 
-                // Parse metodu kullanılarak string ifade int türüne dönüştürülebilir.
-                rakam1 = Int32.Parse(metin1);
-                Console.WriteLine("rakam1 :" + rakam1);
+                // Using Parse method to convert a string expression to int.
+                digit1 = Int32.Parse(text1);
+                Console.WriteLine("digit1 :" + digit1);
 
-                // Parse metodu kullanılarak string ifade double türüne dönüştürülebilir.
-                double32 = Double.Parse(metin2);
+                // Using Parse method to convert a string expression to double.
+                double32 = Double.Parse(text2);
                 Console.WriteLine("double32 :" + double32);
             }
         }
